@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amazon</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo" >
+                <img class="logop" src="amazon logo.png" alt="logo">
+                <button class="button">GET STARTED</button>
+            </div>
+        </header>
+        <section>
+            <div class="bg">
+                <div class="sent">
+                    <p class="head">
+                       <b>There's something for<br>
+                        everyone with Prime!!</b> 
+                    </p><br>
+                    <p class="head1">
+                        Check out what's included with your <br>
+                        Prime membership
+                    </p><br>
+                    <button class="btn">GET STARTED</button><br><br>
+                    <p class="para">
+                        Join Amazon Prime for CDN $7.99/month(plus any applicable taxes).<br>
+                        Cancel anytime.<br><br><br>
+                        <a href="#">Are you a Student?</a><br>
+                        <a href="#">See more plans</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="img">
+                
+                <img class="img1" src="amazon hover1.png" alt="amazon1">
+                <img class="img2" src="amazon hover2.png" alt="amazon2">
+                <img class="img3" src="amazon hover3.png" alt="amazon3">
+                <img class="img4" src="amazon hover4.png" alt="amazon4">
+                <img class="img5" src="amazon hover5.png" alt="amazon5">
+            </div>
+        </section>
+        <h2>Here's a little more about Prime that we think you'll love:</h2>
+        <section class="del">
+            <div class="delivery">
+                <div class="para"> 
+                    <p class="dhead">Fast ,free delivery on<br>millions of items</p>
+                    <p class="dpara">
+                        Super-fast shipping ,millions of items,and flexible<br>
+                        delivery options to fit your life<br><br>
+                       <b>Explore Prime delivery</b> 
+                    </p>
+                </div>
+                <div class="photo">
+                    <img src="amazondel1.png" alt="delivery">
+                </div>
+            </div>
+        </section>
+        <section>
+           <div class="slideshow">
+                <img class="movie" src="amazon movie1.jpg" alt="movie1">
+                <img class="movie" src="amazon movie2.jpg" alt="movie2">
+                <img class="movie" src="amazon movie3.jpg" alt="movie3">
+                <img class="movie" src="amazon movie4.jpg" alt="movie4">
+                <img class="movie" src="amazon movie5.jpg" alt="movie5">
+                <button class="btn1" onclick="plusdivs(-1)">&#10094;</button>
+                <button class="btn1" onclick="plusdivs(+1)">&#10095;</button>
+            </div>
+            <div class="para">
+                <p class="mhead">Stream or download hit<br>movies and TV shows</p>
+                    <p class="mpara">
+                        As a Prime member,you can watch popular movie<br>
+                        and TV shows at no extra cost,including Amazon<br>
+                        Original.Anytime,anywhere<br><br>
+                        <b>Learn more bout Prime Video</b>
+                    </p>
+            </div>
+        </section>
+        <section class="up">
+            <div class="upload">
+                <div class="para"> 
+                    <p class="uhead">Exclusive access to Amazon<br>Originals</p>
+                    <p class="upara">
+                        Prime Videa is the only place where you can watch Amazon<br>
+                        Originals like The Boys,Little Fires Everywhere,Upload,and<br>
+                        more<br><br>
+                       <b>Explore Prime Video</b> 
+                    </p>
+                </div>
+                <div class="uphoto">
+                    <img  src="amazon upload.png" alt="upload">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="slideshow2">
+                <img class="music" src="amazon music1.jpg" alt="music1">
+                <img class="music" src="amazon music2.jpg" alt="music2">
+                <img class="music" src="amazon music3.jpg" alt="music3">
+                <img class="music" src="amazon music4.jpg" alt="music4">
+                <img class="music" src="amazon music5.jpg" alt="music5">
+                <button class="btn1" onclick="plusdivse(-1)">&#10094;</button>
+                <button class="btn1" onclick="plusdivse(+1)">&#10095;</button>
+            </div>
+            <div class="para">
+                <p class="mhead">Stay on top of the hottest<br>music</p>
+                    <p class="mpara">
+                        These songs and artists are the cream of this month's crop of<br>
+                        music new to Prime.Check out the latest from imagine<br>
+                        Dragons,Shawn Mendes,and Arcade Fire<br><br>
+                        <b>Explore Amazon Music</b>
+                    </p>
+            </div>
+        </section>
+        <section class="read">
+            <div class="reading">
+                <div class="para"> 
+                    <p class="rhead">Prime members read for no<br>additional cost</p>
+                    <p class="rpara">
+                        As a Prime member,you can read as mush as your like<br>
+                        from a rotating selection of ebooks.Hundresds of <br>
+                        romances,thrillers,childresn's  books and more<br><br>
+                       <b>Explore Prime Reading</b> 
+                    </p>
+                </div>
+                <div class="rphoto">
+                    <img  src="amazon reading3.png" alt="reading">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="fphoto">
+                    <img src="amazon footer.png" alt="footerimg">
+                </div>
+                <div class="fopara">
+                    <p class="fhead">There's something for<br>everyone</p>
+                        <p class="fpara">
+
+                            <button class="btn">GET STARTED</button><br><br><br>
+                            <a href="#">Are you a student??<br> Check out Prime student</a>
+                        </p>
+                </div>
+            </div>
+            <div class="one">
+                <p class="two">Login in to explore Prime</p>
+            </div>
+        </footer>
+        <script>
+            var slideindex=1;
+            showdivs(slideindex);
+            function plusdivs(n){
+                showdivs(slideindex +=n);
+            }
+            function showdivs(n){
+                var i;
+                var x=document.getElementsByClassName("movie");
+                if(n>x.length){
+                    slideindex=1;
+                }
+                if(n<1){
+                    slideindex=x.length;
+                }
+                for(i=0;i<x.length;i++){
+                    x[i].style.display="none";
+                }
+                x[slideindex-1].style.display="block";
+            }
+        </script>
+        <script>
+            var slideindexe=1;
+            showdives(slideindexe);
+            function plusdivse(n){
+                showdives(slideindexe +=n);
+            }
+            function showdives(n){
+                var i;
+                var x=document.getElementsByClassName("music");
+                if(n>x.length){
+                    slideindexe=1;
+                }
+                if(n<1){
+                    slideindexe=x.length;
+                }
+                for(i=0;i<x.length;i++){
+                    x[i].style.display="none";
+                }
+                x[slideindexe-1].style.display="block";
+            }
+        </script>
+    </body>
+
+</html>
