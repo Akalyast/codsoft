@@ -7,7 +7,6 @@ This is a visually rich front-end clone of the **Amazon Prime** landing page. Th
 
 ![Amazon Prime Clone Preview](screenshotAmazon.png)
 
-> 💡 _You can replace `preview.png` with a real screenshot of your project and make sure the image file is placed in the same folder._
 
 ## 🛠️ Tech Stack
 
